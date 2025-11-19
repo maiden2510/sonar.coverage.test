@@ -1,6 +1,0 @@
-@Sonar.Coverage.Service_HostAddress = http://localhost:5019
-
-GET {{Sonar.Coverage.Service_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###

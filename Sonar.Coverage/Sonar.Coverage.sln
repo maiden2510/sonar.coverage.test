@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sonar.Coverage.Service", "S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sonar.Coverage.Service.Test", "Sonar.Coverage.Service.Test\Sonar.Coverage.Service.Test.csproj", "{0DE8F9BD-511D-4953-9A7E-846E5406B1DF}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "__Solution__", "__Solution__", "{F6B6AC9F-4D2C-41EC-9C56-682521445987}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
