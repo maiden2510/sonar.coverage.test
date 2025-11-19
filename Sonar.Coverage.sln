@@ -4,7 +4,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sonar.Coverage.Service", "S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sonar.Coverage.Service.Test", "Sonar.Coverage.Service.Test\Sonar.Coverage.Service.Test.csproj", "{0DE8F9BD-511D-4953-9A7E-846E5406B1DF}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "__Solution__", "__Solution__", "{F6B6AC9F-4D2C-41EC-9C56-682521445987}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service1", "Service1", "{C52F0BFB-9366-44AA-9641-02798CD3BA5F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service2", "Service2", "{BF97272C-8523-491E-BFA6-AFAD1E8AFCEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sonar.Coverage.Service2", "Sonar.Coverage.Service2\Sonar.Coverage.Service2.csproj", "{75B3D3AD-48B9-456D-88F1-EF2B437BD610}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sonar.Coverage.Service2.Test", "Sonar.Coverage.Service2.Test\Sonar.Coverage.Service2.Test.csproj", "{5DBB1784-B99B-4204-9083-42F7D0608A6D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,5 +26,19 @@ Global
 		{0DE8F9BD-511D-4953-9A7E-846E5406B1DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0DE8F9BD-511D-4953-9A7E-846E5406B1DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0DE8F9BD-511D-4953-9A7E-846E5406B1DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75B3D3AD-48B9-456D-88F1-EF2B437BD610}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75B3D3AD-48B9-456D-88F1-EF2B437BD610}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75B3D3AD-48B9-456D-88F1-EF2B437BD610}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75B3D3AD-48B9-456D-88F1-EF2B437BD610}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DBB1784-B99B-4204-9083-42F7D0608A6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DBB1784-B99B-4204-9083-42F7D0608A6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DBB1784-B99B-4204-9083-42F7D0608A6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DBB1784-B99B-4204-9083-42F7D0608A6D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{41D6483B-9A30-4AA8-9C0F-8DBC7ABC49B5} = {C52F0BFB-9366-44AA-9641-02798CD3BA5F}
+		{0DE8F9BD-511D-4953-9A7E-846E5406B1DF} = {C52F0BFB-9366-44AA-9641-02798CD3BA5F}
+		{75B3D3AD-48B9-456D-88F1-EF2B437BD610} = {BF97272C-8523-491E-BFA6-AFAD1E8AFCEC}
+		{5DBB1784-B99B-4204-9083-42F7D0608A6D} = {BF97272C-8523-491E-BFA6-AFAD1E8AFCEC}
 	EndGlobalSection
 EndGlobal
