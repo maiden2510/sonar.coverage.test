@@ -1,6 +1,6 @@
 ﻿namespace Sonar.Coverage.Service.Test;
 
-public class Tests
+public class CalculatorTest
 {
     [Test]
     public void Test1()
@@ -8,7 +8,6 @@ public class Tests
         Calculator.Increment(1);
         Calculator.Increment(2);
         Calculator.Increment(4);
-        Calculator.Decrement(1);
         Assert.Pass();
     }
 }
