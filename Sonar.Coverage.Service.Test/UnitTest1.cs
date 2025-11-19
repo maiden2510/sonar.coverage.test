@@ -5,6 +5,8 @@ public class Tests
     [Test]
     public void Test1()
     {
+        Calculator.Increment(1);
+        Calculator.Increment(4);
         Assert.Pass();
     }
 }
