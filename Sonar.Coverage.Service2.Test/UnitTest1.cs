@@ -5,8 +5,8 @@ public class CalculatorTest
     [Test]
     public void Test1()
     {
-        Calculator.Decrement(10);
-        Calculator.Decrement(20);
+        Calculator.Decrement(1);
+        Calculator.Decrement(2);
         Assert.Pass();
     }
 }
