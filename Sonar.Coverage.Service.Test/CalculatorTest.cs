@@ -8,6 +8,9 @@ public class CalculatorTest
         Calculator.Increment(1);
         Calculator.Increment(2);
         Calculator.Increment(4);
+        
+        Calculator.Decrement(1);
+        Calculator.Decrement(2);
 
         Assert.Pass();
     }
